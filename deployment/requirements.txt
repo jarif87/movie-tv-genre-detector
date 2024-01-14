@@ -1,0 +1,4 @@
+gradio==4.14.0
+onnxruntime==1.16.3
+torch==1.13.1
+transformers==4.35.2
