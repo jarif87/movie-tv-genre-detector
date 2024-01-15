@@ -19,7 +19,7 @@ def index():
         return render_template("index.html")
 
 def predict_genres(input_text):
-    response = requests.post("https://jarif-movie-tvshow-genres-classification.hf.space/--replicas/5zurq/", json={
+    response = requests.post("https://jarif-movie-tvshow-genres-classification.hf.space/run/predict", json={
         "data": [
             input_text
         ]
