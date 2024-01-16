@@ -37,7 +37,7 @@
 
 # Model Deployment
 
-The condensed model has been deployed on the HuggingFace Spaces Gradio App. You can explore the implementation either by navigating to the deployment folder or by visiting this [link](https://huggingface.co/spaces/jarif/Movie_Tvshow_Genres_Classification) for direct access to the application.
+***The condensed model has been deployed on the HuggingFace Spaces Gradio App. You can explore the implementation either by navigating to the deployment folder or by visiting this [link](https://huggingface.co/spaces/jarif/Movie_Tvshow_Genres_Classification) for direct access to the application.***
 
 
 <img src = "deployment/gradio_app.png" width="700" height="350">
