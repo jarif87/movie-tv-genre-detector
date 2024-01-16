@@ -1,6 +1,6 @@
 # Movie_Tvshow_Genre_Classification
 
-**A text classification model from data collection, model training, and deployment.The model can classify 23 different types of Movie,Tvshow genres The keys of deployment\genre_types_encoded.json shows the Movie and Tvshow genres**
+***From gathering data to model training and deployment, the entire journey of creating a text classification model has been completed. This model demonstrates proficiency in classifying a diverse range of 23 Movie and TV show genres. The deployment section contains a key resource, namely genre_types_encoded.json, providing insights into the encoded representations of these genres for both Movies and TV shows. Explore this file to gain a deeper understanding of the genres encompassed by the model.***
 
 # Genre Countplot
 
