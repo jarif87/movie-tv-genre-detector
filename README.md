@@ -8,4 +8,4 @@
 
 <img src = "notebooks/genre_wordcloud.png" width="700" height="350">
 
-<img src = "notebooks/most_common_words_wordcloud.png" width="700" height="350">
+<img src = "notebooks/most_common_words.png" width="700" height="350">
