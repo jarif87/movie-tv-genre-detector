@@ -5,3 +5,7 @@
 <img src = "notebooks/download.png" width="700" height="350">
 
 <img src = "notebooks/des_wordcloud.png" width="700" height="350">
+
+<img src = "notebooks/genre_wordcloud.png" width="700" height="350">
+
+<img src = "notebooks/30 most_common_words_wordcloud.png" width="700" height="350">
