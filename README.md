@@ -33,3 +33,20 @@
 # Model Training
 
 ***I performed fine-tuning on a pre-trained Roberta-Base model obtained from HuggingFace Transformers. The process utilized the Fastai library and Blurr, an extension for leveraging HuggingFace Transformers with Fastai. For those interested, the notebook used for training the model is accessible and can be viewed for detailed insights into the training procedure [here](https://github.com/jarif87/Movie_Tvshow_Genre_Classification/blob/main/notebooks/movie_tvshow_genres_Classification.ipynb)***
+
+
+# Model Deployment
+
+The condensed model has been deployed on the HuggingFace Spaces Gradio App. You can explore the implementation either by navigating to the deployment folder or by visiting this [link](https://huggingface.co/spaces/jarif/Movie_Tvshow_Genres_Classification) for direct access to the application.
+
+
+<img src = "deployment/gradio_app.png" width="700" height="350">
+
+# Web Deployment
+
+***Launched a Flask App designed to receive descriptions and generate corresponding genres as output. Feel free to explore the Flask branch for implementation details. You can experience the application in real-time by visiting the live website, accessible [here](https://multilabel-movietvshow-genre-classifier.onrender.com)***
+
+
+<img src = "deployment/movie_genre.png" width="700" height="350">
+
+<img src = "deployment/result.png" width="700" height="350">
