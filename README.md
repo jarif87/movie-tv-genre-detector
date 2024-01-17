@@ -26,6 +26,15 @@
 
 <img src = "notebooks/most_common_words.png" width="700" height="350">
 
+# Data Collection
+
+Data was collected from a Metacritic Website Listing: 
+1.https://www.metacritic.com/browse/movie/all/all/all-time/new/
+
+2.https://www.metacritic.com/browse/tv/all/all/all-time/new
+The data collection process is divided into 2 steps:
+
+
 # Data Preprocessing
 
 ***In the dataset's initial state, it comprised 27 distinct genres. Subsequent analysis revealed that four of these genres appeared to be uncommon, potentially representing custom genres created by users. Consequently, these rare genres were excluded, leaving a refined dataset containing 23 genres.Further refinement involved the removal of descriptions lacking any associated genres. As a result, the dataset now comprises 21,753 samples, each with a well-defined genre.***
