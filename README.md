@@ -34,6 +34,10 @@
 
 ***I performed fine-tuning on a pre-trained Roberta-Base model obtained from HuggingFace Transformers. The process utilized the Fastai library and Blurr, an extension for leveraging HuggingFace Transformers with Fastai. For those interested, the notebook used for training the model is accessible and can be viewed for detailed insights into the training procedure [here](https://github.com/jarif87/Movie_Tvshow_Genre_Classification/blob/main/notebooks/movie_tvshow_genres_Classification.ipynb)***
 
+# Model Compression and ONNX Inference
+
+***The original trained model had a memory footprint exceeding 900 megabytes. Through the application of ONNX quantization techniques, I successfully compressed the model, reducing its size to a more efficient 119 megabytes.***
+
 
 # Model Deployment
 
