@@ -28,11 +28,13 @@
 
 # Data Collection
 
-Data was collected from a Metacritic Website Listing: 
+***Information was sourced from a Metacritic website listing, specifically:***
+
 1.https://www.metacritic.com/browse/movie/all/all/all-time/new/
 
 2.https://www.metacritic.com/browse/tv/all/all/all-time/new
-The data collection process is divided into 2 steps:
+
+***I collected data by scraping information on both movies and TV shows. Initially, for TV shows, I gathered titles and URLs. Subsequently, I extended the dataset by scraping descriptions and genres for each TV show. Moving on to movies, I first acquired URLs, titles, and due to the substantial size of the dataset, I divided it into two parts, namely 'part_1' and 'part_2'. Further expanding the movie dataset, I scraped descriptions and genres from the respective URLs.To consolidate the comprehensive dataset, I combined all the gathered information into a single CSV file named "movie_tvshow_description.csv," which can be found in the 'scraper' folder.***
 
 
 # Data Preprocessing
