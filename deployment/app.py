@@ -19,9 +19,11 @@ def classify_movietvshow_genre(description):
   logits = inf_session.run([output_name], {input_name: [input_ids]})[0]
   logits = torch.FloatTensor(logits)
   probs = torch.sigmoid(logits)[0]
-  return dict(zip(genres, map(float, probs))) 
+  return dict(zip(genres, map(float, probs)))
 
-label = gr.outputs.Label(num_top_classes=5)
-iface = gr.Interface(fn=classify_movietvshow_genre, inputs="text", outputs=label)
+iface = gr.Interface(
+    fn=classify_movietvshow_genre,
+    inputs="text",
+    outputs=gr.Label(num_top_classes=5)
+)
 iface.launch(inline=False)
-					
