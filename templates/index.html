@@ -1,79 +1,49 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie and TV Show Genre Classifier</title>
     <style>
         body {
-            background-color: #f5f5f5;
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-
-        .head {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 30px;
-            height: 5ch;
-            background-color: #ffcccb; /* Pastel red-pink */
-            border-radius: 10px 10px 0 0;
-        }
-
-        .center {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            font-size: 25px;
-        }
-
-        form {
-            height: 500px;
-            width: 1000px;
-            background-color: #add8e6; /* Pastel blue */
-            padding: 20px;
-            border-radius: 10px;
             display: flex;
             flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #007bff; /* Set background color to blue */
+        }
+
+        h1 {
+            margin-top: 20px; /* Adjust as needed */
+            color: #fff; /* Set heading color to white */
+        }
+
+        .iframe-container {
+            width: 100%;
+            height: 100%;
+            display: flex;
             justify-content: center;
             align-items: center;
+            background-color: #fff; /* Set iframe container background color */
         }
 
-        #text {
-            height: 100px;
-            width: 500px;
-            font-size: 20px;
-            margin-bottom: 20px;
-            border-radius: 5px;
-            border: 1px solid #b0e0e6; /* Light steel blue */
-            padding: 10px;
-            resize: none; /* Disable textarea resizing */
-        }
-
-        input[type="submit"] {
-            font-size: 20px;
-            padding: 10px;
-            background-color: #ffb6c1; /* Light coral */
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-
-        input[type="submit"]:hover {
-            background-color: #ff69b4; /* Hot pink */
+        iframe {
+            width: calc(100vw - 40px); /* Adjust as needed */
+            height: calc(100vh - 80px); /* Adjust as needed */
+            max-width: 1200px; /* Set maximum width */
+            max-height: 800px; /* Set maximum height */
+            border: 0;
         }
     </style>
 </head>
-
 <body>
-    <div class="head"><b>Movie And Tvshow Genre Classifier</b></div>
-    <div class="center">
-        <form action="/" method="post">
-            <label for="text"><b>Enter Description</b></label> <br />
-            <textarea id="text" name="text"></textarea> <br />
-            <input type="submit" value="Submit">
-        </form>
-    </div>
-</body>
+    <h1>Movie and TV Show Genre Classifier</h1>
 
+    <div class="iframe-container">
+        <iframe src="https://jarif-movie-tvshow-genres-classification.hf.space" frameborder="0"></iframe>
+    </div>
+
+</body>
 </html>
